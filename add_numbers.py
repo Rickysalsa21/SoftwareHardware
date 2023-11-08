@@ -6,6 +6,12 @@ def main():
     num1 = int(input("Enter the first number: "))
     num2 = int(input("Enter the second number"))
     total = num1 + num2
-    print("hello" +total)
+    
+    myDict = {"name": "John", "country": "Norway"}
+    mySeparator = "TEST"
+
+    x = mySeparator.join(myDict)
+
+    print(x)
 if __name__ == "__main__":
     main()
